@@ -1,0 +1,23 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore build artifacts and dependencies
+target
+Cargo.lock
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+*.swp
+*.swx
+*~
+.DS_Store
+
+# Ignore IDE configuration files
+.vscode
+.idea
+
+# Ignore anything else that's not needed for building the image
+*.md
+LICENSE
